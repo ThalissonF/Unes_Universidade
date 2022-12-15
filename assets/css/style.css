@@ -1,0 +1,154 @@
+body{
+    background: url('../img/fundo.png');
+}
+
+.container{
+    padding: 25px 320px 20px;
+    /* padding-top: 25px;
+    padding-bottom: 20px; */
+    display: flex;
+    justify-content: space-around;           
+}
+
+.menu__opcoes{
+    display: flex;
+    padding-top: 20px;    
+}
+
+.menu__opcoes > li{
+    padding: 0 20px;
+}
+
+.menu__opcoes > li:last-of-type{
+    padding: 0 0 0 20px;
+}
+
+.menu__opcoes > ul > a{
+    text-decoration: none;
+    color: #000;
+}
+
+.foto_capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artigo > h1{
+    padding: 50px 0 30px 510px;
+    font-size: 30px;
+    font-weight: bold;      
+}
+
+.artigo > p{
+    padding: 0 510px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.rodape{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+strong{
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
+}
+
+.quem_somos, .contato{
+    background: url(../img/fundo2.png);
+}
+
+.secao{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 520px 0;
+}
+
+.secao > h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.secao > p {
+    text-align: justify;
+}
+
+.secao > h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.secao > ol{
+    list-style: decimal;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+.rodape_quem_somos{
+    padding-top: 216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.container_contato{
+    display: flex;
+    padding: 100px 520px 20px;
+}
+
+.texto-contato > h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.texto-contato > p{
+    text-align: justify;
+    padding-top: 20px;
+}
+
+hr{
+    width: 875px;
+}
+
+.container_formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-contato > label{
+    display: block;
+    padding-top: 20px;
+    padding-left: 520px;
+}
+
+.formulario-contato > input{
+    display: block;
+    margin-left: 520px;
+    padding-right: 100px;
+}
+
+#descricao{
+    height: 200px;
+    width: 500px;
+    vertical-align: text-top;
+    margin-left: 520px;
+}
+
+.rodape_contato{
+    padding-top: 252px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
